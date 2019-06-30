@@ -88,22 +88,22 @@ gatsby new my-site https://github.com/fabe/gatsby-universal
 # Installation with `git clone`
 git clone git@github.com:fabe/gatsby-universal.git my-site
 cd my-site
-yarn install
+npm install
 
 # To develop
-yarn develop
+npm run develop
 
 # To build
-yarn build
+npm run build
 
 # To test SSR (for Lighthouse etc.)
-yarn ssr
+npm run ssr
 
 # To format JS (precommit)
-yarn format
+npm run format
 
 # To generate favicons (included in `build`)
-yarn build:favicons
+npm run build:favicons
 ```
 
 ## Configuration

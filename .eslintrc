@@ -11,7 +11,6 @@
       "warn",
       "single"
     ],
-    "prettier/prettier": "warn",
     "react/prop-types": "warn",
     "no-unused-vars": "warn"
   },
@@ -20,7 +19,7 @@
     "plugin:react/recommended",
     "plugin:jsx-a11y/recommended"
   ],
-  "plugins": ["prettier", "jsx-a11y"],
+  "plugins": ["jsx-a11y"],
   "settings": {
     "react": {
       "version": "detect"

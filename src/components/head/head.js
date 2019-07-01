@@ -15,7 +15,7 @@ const Head = ({
   social,
   imageUrl,
   location,
-  canonical = siteUrl + (location.pathname || ''),
+  canonical = siteUrl + (location.pathname || '')
 }) => (
   <Helmet>
     <html lang="en" />
@@ -45,7 +45,6 @@ const Head = ({
 
     <meta content="website" property="og:type" />
     <meta content={siteTitle} property="og:site_name" />
-    <meta content={social.fbAppId} property="fb:app_id" />
     <meta content="summary_large_image" name="twitter:card" />
     <meta content={`@${social.twitter}`} name="twitter:site" />
     <meta content={`@${social.twitter}`} name="twitter:creator" />
@@ -158,7 +157,7 @@ const Head = ({
           siteUrl,
           pageTitle,
           siteTitle,
-          pageTitleFull,
+          pageTitleFull
         })
       )}
     </script>
@@ -176,7 +175,7 @@ Head.propTypes = {
   canonical: PropTypes.string,
   pageTitle: PropTypes.string,
   pageTitleFull: PropTypes.string,
-  location: PropTypes.object.isRequired,
+  location: PropTypes.object.isRequired
 };
 
 const HeadWithQuery = props => (
@@ -192,7 +191,6 @@ const HeadWithQuery = props => (
             themeColor
             social {
               twitter
-              fbAppId
             }
           }
         }

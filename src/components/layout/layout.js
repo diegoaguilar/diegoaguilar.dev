@@ -9,14 +9,13 @@ const Layout = ({ data, children }) => (
   <div>
     <GlobalStyle />
     <Head />
-    <Header title={data.site.siteMetadata.siteTitle} />
     {children}
   </div>
 );
 
 Layout.propTypes = {
   children: PropTypes.node.isRequired,
-  data: PropTypes.object.isRequired,
+  data: PropTypes.object.isRequired
 };
 
 const LayoutWithQuery = props => (
@@ -35,7 +34,7 @@ const LayoutWithQuery = props => (
 );
 
 LayoutWithQuery.propTypes = {
-  children: PropTypes.node.isRequired,
+  children: PropTypes.node.isRequired
 };
 
 export default LayoutWithQuery;

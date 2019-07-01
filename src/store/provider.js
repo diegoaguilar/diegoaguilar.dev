@@ -8,7 +8,7 @@ class AppProvider extends Component {
   state = {
     open: false,
     showModal: () => this.setState({ open: true }),
-    hideModal: () => this.setState({ open: false }),
+    hideModal: () => this.setState({ open: false })
   };
 
   render() {
@@ -17,7 +17,7 @@ class AppProvider extends Component {
 }
 
 AppProvider.propTypes = {
-  children: PropTypes.node.isRequired,
+  children: PropTypes.node.isRequired
 };
 
 export default AppProvider;

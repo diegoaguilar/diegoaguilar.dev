@@ -9,4 +9,10 @@ export const Container = styled.div`
   height: 100vh;
   font-size: 7em;
   font-weight: 400;
+  text-align: center;
+  line-height: 1.25em;
+
+  @media (max-width:480px)  { 
+    font-size: 4em; 
+  }
 `;

@@ -11,8 +11,9 @@ export const Container = styled.div`
   font-weight: 400;
   text-align: center;
   line-height: 1.25em;
+  user-select: none;
 
-  @media (max-width:480px)  { 
-    font-size: 4em; 
+  @media (max-width: 480px) {
+    font-size: 4em;
   }
 `;

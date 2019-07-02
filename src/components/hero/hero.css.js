@@ -13,7 +13,13 @@ export const Container = styled.div`
   line-height: 1.25em;
   user-select: none;
 
-  @media (max-width: 480px) {
-    font-size: 4em;
+  @media (max-width: 400px), (max-height: 600px) {
+    font-size: 3em;
+    padding: 25px;
+  }
+
+  @media (width: 768px), (height: 1024px) {
+    font-size: 5em;
+    padding: 15px;
   }
 `;

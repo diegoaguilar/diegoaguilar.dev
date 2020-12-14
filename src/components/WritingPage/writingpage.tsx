@@ -12,7 +12,6 @@ const shortcodes = { Link }
 import "./writingpage.scss"
 
 export default function WritingPage({ data: { mdx } }) {
-	console.log(mdx)
 	return (
 		<Layout>
 			<SEO

@@ -25,11 +25,11 @@ export default function IndexPage(props) {
 	return (
 		<Layout>
 			{/* siteTitle specifies that the title will the siteTitle alone */}
-			<SEO title="siteTitle" />
+			<SEO title="Diego Aguilar" />
 			<Intro
-				siteTitle={site.siteMetadata.title}
+				siteTitle={site.siteMetadata.title || "Diego Aguilar"}
 				siteDescription={site.siteMetadata.description}
-				siteAuthor={site.siteMetadata.author}
+				siteAuthor={site.siteMetadata.author || "Diego Benjamín Aguilar Aguilar"}
 			/>
 			<Writings />
 		</Layout>

@@ -5,7 +5,7 @@ import { useStaticQuery, graphql } from "gatsby"
 import Layout from "../components/Layout/layout"
 import SEO from "../components/Utils/seo"
 import Intro from "../components/Intro/intro"
-import Posts from "../components/Posts/posts"
+import Writings from "../components/Writings/writings"
 
 export default function IndexPage(props) {
 	const { site } = useStaticQuery(
@@ -31,7 +31,7 @@ export default function IndexPage(props) {
 				siteDescription={site.siteMetadata.description}
 				siteAuthor={site.siteMetadata.author}
 			/>
-			<Posts />
+			<Writings />
 		</Layout>
 	)
 }

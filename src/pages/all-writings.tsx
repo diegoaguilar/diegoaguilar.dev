@@ -5,7 +5,7 @@ import { useStaticQuery, graphql } from "gatsby"
 import Layout from "../components/Layout/layout"
 import SEO from "../components/Utils/seo"
 import Intro from "../components/Intro/intro"
-import Posts from "../components/Posts/posts"
+import Writings from "../components/Writings/writings";
 
 export default function PostsPage(props) {
 	const { site } = useStaticQuery(
@@ -26,7 +26,7 @@ export default function PostsPage(props) {
 		<Layout>
 			{/* siteTitle specifies that the title will the siteTitle alone */}
 			<SEO title="siteTitle" />
-			<Posts data={{}} />
+			<Writings data={{}} />
 		</Layout>
 	)
 }

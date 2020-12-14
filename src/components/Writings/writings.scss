@@ -1,16 +1,17 @@
 @import "../../styles/colors.scss";
 
-.Posts {
+.Writings {
 	width: 100%;
 	max-width: 800px;
 	padding: 30px;
 
 	&__banner {
-		margin-bottom: 25px;
+		margin-bottom: 50px;
+		text-align: center;
 	}
 }
 
-.Post {
+.Writing {
 	margin-bottom: 3em;
 	width: 100%;
 
@@ -36,7 +37,7 @@
 		font-size: 105%;
 		letter-spacing: 0.02rem;
 		line-height: 1.8em;
-		margin-bottom: 5px;
+		margin-bottom: 10px;
 	}
 
 	&__readmore {
@@ -87,7 +88,7 @@
 }
 
 @media (max-width: 768px) {
-	.Posts {
+	.Writings {
 		&__banner {
 			margin-bottom: 20px;
 		}

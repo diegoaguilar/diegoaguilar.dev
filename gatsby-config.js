@@ -1,9 +1,9 @@
 module.exports = {
 	siteMetadata: {
 		// Update these and enjoy :)
-		title: `TeXBlog`,
-		description: `A simple, LaTeX enabled starter to properly showcase your beautifully typeset articles. Perfectly complements STEM blogs.`,
-		author: `Akshat Bisht`,
+		title: `Diego Aguilar`,
+		description: `Thoughts and words`,
+		author: `Diego Benjamín Aguilar Aguilar`,
 	},
 	plugins: [
 		{
@@ -36,8 +36,8 @@ module.exports = {
 		{
 			resolve: `gatsby-source-filesystem`,
 			options: {
-				name: `posts`,
-				path: `${__dirname}/content/posts`,
+				name: `writings`,
+				path: `${__dirname}/content/writings`,
 			},
 		},
 		{
@@ -46,7 +46,7 @@ module.exports = {
 				gatsbyRemarkPlugins: [`gatsby-remark-katex`],
 				remarkPlugins: [require(`remark-math`)],
 				defaultLayouts: {
-					posts: require.resolve("./src/components/PostPage/postpage.tsx"),
+					writings: require.resolve("./src/components/WritingPage/writingpage.tsx"),
 				},
 			},
 		},

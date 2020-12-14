@@ -8,42 +8,33 @@ export default function About(props) {
 			{/* siteTitle specifies that the title will the siteTitle alone */}
 			<SEO title="siteTitle" />
 			<section className="About">
-				<h1>About</h1>
+				<h1>About me</h1>
 				<p>
-					Hello, I'm Akshat!
+					<br />
+					I'm a Computer Science Engineer focused in cloud technologies, web development and digital products.
 					<br />
 					<br />
-					This is a project I decided to work on as I had planned to publish
-					some typeset work on a blog and I realised that there weren't too many
-					Gatsby starters with a focus on LaTeX, so I decided to create TeXBlog:
-					my first Gatsby starter which is centered around the simplicity and
-					elegance of typesetting.
+					I work with a variety of companies and brands offering Software Architecture consultancy and support for cloud and web development.
 					<br />
 					<br />
-					If you'd like to check out more of my projects please visit{" "}
+					I run Ciudades agency which is specialized in AWS, GCP and Azure services, data engineering and product development.
+					<br />
+					<br />
+					I'm always eager to share ideas and thoughts and available for consultancy collaborations.
+					<br />
+					Feel free to drop an email to {" "}
 					<a
-						href="http://akshatbisht.com"
+						href="mailto://diegoaguilar@ciudades.dev"
 						target="_blank"
 						rel="noopener noreferrer"
 					>
-						my website
+						diegoaguilar@ciudades.dev
 					</a>{" "}
-					or if you'd like to get in touch{" "}
-					<a
-						href="mailto:hello@akshatbisht.com"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						click here for my email
-					</a>
-					<br />
-					<br />
-					Thank you very much and I hope you enjoy this starter!
 					<br />
 					<br />
 					<br />
 					<br />
-					- Akshat
+					- Diego
 				</p>
 			</section>
 		</Layout>

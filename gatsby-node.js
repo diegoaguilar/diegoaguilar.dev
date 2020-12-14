@@ -6,10 +6,11 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
 
 	if (node.internal.type === "Mdx") {
 		const value = createFilePath({ node, getNode })
+		console.log(value)
 		createNodeField({
 			name: "slug",
 			node,
-			value: `/posts${value}`,
+			value: `/writings${value}`,
 		})
 	}
 }
@@ -39,7 +40,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
 	posts.forEach(({ node }, index) => {
 		createPage({
 			path: node.fields.slug,
-			component: path.resolve(`./src/components/PostPage/postpage.tsx`),
+			component: path.resolve(`./src/components/WritingPage/writingpage.tsx`),
 			// You can use the values in this context in
 			// our page layout component
 			context: { id: node.id },

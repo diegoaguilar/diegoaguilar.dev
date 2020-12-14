@@ -7,18 +7,20 @@ import { GrGatsbyjs } from "react-icons/gr"
 
 // Edit these to add or remove social media icons.
 const socialMediaAccounts = [
-	{ id: 1, icon: FaGithub, url: "http://github.com/aaaakshat" },
+	{
+		id: 1,
+		icon: FaTwitter,
+		url: "http://twitter.com/daguilaraguilar",
+	},
 	{
 		id: 2,
-		icon: GrGatsbyjs,
-		url: "https://www.gatsbyjs.com/starters/aaaakshat/gatsby-starter-texblog/",
+		icon: FaGithub,
+		url: "http://github.com/diegoaguilar",
 	},
-	{
-		id: 3,
-		icon: FaTwitter,
-		url: "http://github.com/aaaakshat/gatsby-starter-texblog",
+	{ id: 3,
+		icon: FaEnvelope,
+		url: "mailto:diegoaguilar@ciudades.dev"
 	},
-	{ id: 4, icon: FaEnvelope, url: "mailto:hello@akshatbisht.com" },
 ]
 
 const SocialLinks = ({ className }) => (

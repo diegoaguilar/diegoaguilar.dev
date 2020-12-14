@@ -9,9 +9,9 @@ import truncateText from "../Utils/truncateText"
 import dateInEnglish from "../Utils/dateInEnglish"
 const shortcodes = { Link }
 
-import "./postpage.scss"
+import "./writingpage.scss"
 
-export default function PostPage({ data: { mdx } }) {
+export default function WritingPage({ data: { mdx } }) {
 	console.log(mdx)
 	return (
 		<Layout>
@@ -19,9 +19,9 @@ export default function PostPage({ data: { mdx } }) {
 				title={truncateText(mdx.frontmatter.title, 17)}
 				description={mdx.frontmatter.description}
 			/>
-			<article className="PostPage" id={mdx.id}>
-				<h1 className="PostPage__title">{mdx.frontmatter.title}</h1>
-				<h3 className="PostPage__date">
+			<article className="WritingPage" id={mdx.id}>
+				<h1 className="WritingPage__title">{mdx.frontmatter.title}</h1>
+				<h3 className="WritingPage__date">
 					{dateInEnglish(mdx.frontmatter.date)}
 				</h3>
 				<MDXProvider components={shortcodes} className="test">
@@ -31,7 +31,7 @@ export default function PostPage({ data: { mdx } }) {
 					onClick={() => {
 						window.scrollTo(0, 0)
 					}}
-					className="PostPage__topbutton"
+					className="WritingPage__topbutton"
 					title="Go to top of page"
 				>
 					↑

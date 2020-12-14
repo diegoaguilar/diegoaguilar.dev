@@ -14,8 +14,7 @@ module.exports = {
 				start_url: `/`,
 				// Color settings can be found in /styles/colors.scss
 				background_color: `oldlace`,
-				display: `standalone`,
-				icon: `src/images/favicon.png`,
+				display: `standalone`
 			},
 		},
 		{

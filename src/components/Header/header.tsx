@@ -7,13 +7,6 @@ import "./header.scss"
 
 const Header = props => (
 	<header className={`Header ${props.className}`}>
-		<Link to="/" className="Header__logo">
-			<h1 className="Header__logo__text">
-				{!props.siteTitle || props.siteTitle === ""
-					? `Undefined`
-					: props.siteTitle}
-			</h1>
-		</Link>
 		<Menu right className="Header__menu">
 			<Link to="/" className="Header__menu__item menuTitle">
 				{!props.siteTitle || props.siteTitle === ""

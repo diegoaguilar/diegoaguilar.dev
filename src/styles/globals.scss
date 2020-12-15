@@ -7,7 +7,7 @@ body,
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	min-height: 100%;
-	background-color: $background;
+	background-color: white;
 	scroll-behavior: smooth;
 }
 
@@ -15,7 +15,7 @@ body {
 	width: 100%;
 	margin: 0 auto;
 	font-family: $serif-stack;
-	font-size: 16px;
+	font-size: 18px;
 	line-height: 1.5;
 	color: $text-black;
 	-webkit-font-smoothing: antialiased;
@@ -24,12 +24,14 @@ body {
 		box-sizing: border-box;
 	}
 
-	@media (max-width: 768px) {
+	@media (max-width: 1024px) {
 		font-size: 12px;
+		background-color: $background;
+		// background-color: rgba(white, 0.9) !important;
 	}
 
 	@media (min-width: 768px) and (max-width: 1400px) {
-		font-size: 14px;
+		font-size: 18px;
 	}
 }
 
@@ -198,7 +200,6 @@ code {
 	font-family: $monospace-stack;
 	border-radius: 6px;
 	padding: 10px 15px;
-	background-color: rgba(white, 0.9) !important;
 }
 
 .small-image {

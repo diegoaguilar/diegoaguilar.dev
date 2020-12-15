@@ -12,6 +12,12 @@
 	flex-direction: column;
 	justify-content: flex-start;
 
+	p {
+		@media (min-width:1281px) {
+			font-size: 130%;
+		}
+	}
+
 	&__title {
 		text-align: center;
 		margin-bottom: 10px;

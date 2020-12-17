@@ -14,7 +14,7 @@ function formatTitle(title, siteTitle) {
 	if (title.title === "siteTitle") {
 		return `${siteTitle}`
 	} else {
-		return `${title.title} | ${siteTitle}`
+		return `${title.title}`
 	}
 }
 
@@ -64,8 +64,12 @@ function SEO({ description, lang, meta, title }) {
 					content: `summary`,
 				},
 				{
+					name: `twitter:site`,
+					content: 'daguilaraguilar',
+				},
+				{
 					name: `twitter:creator`,
-					content: site.siteMetadata.author,
+					content: 'daguilaraguilar',
 				},
 				{
 					name: `twitter:title`,

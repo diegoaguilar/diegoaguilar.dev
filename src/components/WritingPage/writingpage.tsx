@@ -15,7 +15,7 @@ export default function WritingPage({ data: { mdx } }) {
 	return (
 		<Layout>
 			<SEO
-				title={truncateText(mdx.frontmatter.title, 17)}
+				title={truncateText(mdx.frontmatter.title, 40)}
 				description={mdx.frontmatter.description}
 			/>
 			<article className="WritingPage" id={mdx.id}>

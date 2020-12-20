@@ -13,7 +13,8 @@
 	justify-content: flex-start;
 
 	p {
-		@media (min-width:1281px) {
+		text-align: justify;
+		@media (min-width: 1281px) {
 			font-size: 115%;
 			font-variant: no-common-ligatures;
 		}

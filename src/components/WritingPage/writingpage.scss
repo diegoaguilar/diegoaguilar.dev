@@ -14,9 +14,14 @@
 
 	p {
 		text-align: justify;
+		font-variant: no-common-ligatures;
+		
 		@media (min-width: 1281px) {
+			font-size: 111.5%;
+		}
+
+		@media only screen and (-webkit-min-device-pixel-ratio : 1.5), only screen and (min-device-pixel-ratio : 1.5) {
 			font-size: 123%;
-			font-variant: no-common-ligatures;
 		}
 	}
 

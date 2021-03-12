@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-texblog",
+  "name": "diegoaguilar-dev-site",
   "private": false,
-  "description": "A simple, LaTeX enabled starter to properly showcase your beautifully typeset articles. Perfectly complements STEM blogs.",
+  "description": "Professional website. Profile, interests, projects, thoughts and learnings",
   "version": "0.1.0",
-  "author": "Akshat Bisht <hello@akshatbisht.com>",
+  "author": "Diego Benjamín Aguilar Aguilar <diego@noble.holdings>",
   "dependencies": {
     "@mdx-js/mdx": "^1.6.16",
     "@mdx-js/react": "^1.6.16",
@@ -51,7 +51,8 @@
     "prettier": "2.0.5"
   },
   "keywords": [
-    "gatsby"
+    "diego",
+    "noble"
   ],
   "license": "MIT",
   "scripts": {
@@ -65,9 +66,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/aaaakshat/gatsby-starter-texblog"
+    "url": "https://github.com/diegoaguilar/diegoaguilar.dev"
   },
   "bugs": {
-    "url": "https://github.com/aaaakshat/gatsby-starter-texblog/issues"
+    "url": "https://github.com/diegoaguilar/diegoaguilar.dev"
   }
 }
